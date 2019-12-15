@@ -1,0 +1,27 @@
+{
+  "name": "DevCat/json-response",
+  "description": "A simple class that returnas a properly formatted json response with HTTP status",
+  "keywords": [
+    "Json",
+    "Response",
+    "API Response Class",
+    "PHP"
+  ],
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "cat_in_glasses",
+      "email": "test@mail.com",
+      "homepage": "homepagetest.com"
+    }
+  ],
+  "require": {
+    "php": ">= 5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DevCat\\ResponseClass\\": "src/"
+    }
+  }
+}
