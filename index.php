@@ -4,14 +4,14 @@ require_once __DIR__ . "/vendor/autoload.php";
 
 use DevCat\ResponseClass\JsonResponse;
 
-$student = [
+$student = array(
 	'name' => 'John Doe',
 	'course' => 'Sofware Engineering',
 	'level' => 200,
-	'collections' => [
+	'collections' => array(
 		'books' => 'Intro to UML',
 		'music' => 'rap'
-	]
-];
+	)
+);
 
 new JsonResponse('unauthorized', '', $student);
