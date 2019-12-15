@@ -1,5 +1,5 @@
 {
-  "name": "DevCat/json-response",
+  "name": "devcat/json-response",
   "description": "A simple class that returnas a properly formatted json response with HTTP status",
   "keywords": [
     "Json",
